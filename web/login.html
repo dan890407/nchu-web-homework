@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>註冊</title>
+    <meta name="description" content="my nchu website" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<p>
+    <a href="main.html"" target="_self"><img src="nchu.png" alt="Trulli" width="800" height="150"></a>                          
+    <hr>
+    <h3>註冊以成為資工系的一員</h3>
+    <p>這些資料有助於我們了解您是誰! </p>
+</p>
+<form action="main.html">
+    <table border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <label for="fname">名:</label>
+                    <input type="text" id="fname" name="fname" required placeholder="富盛"><br><br>
+                </td>
+                <td>
+                    <label for="lname">姓:</label>
+                    <input type="text" id="lname" name="lname" required placeholder="薛"><br><br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <label for="colors">最喜歡的顏色:D:</label>
+    <input type="color" id="colors" name="colors" required><br><br>
+    <label for="studys">你是什麼系:</label>
+        <input list="browsers" name="studys" id="studys" required placeholder="xx系">
+            <datalist id="browsers">
+                <option value="電資學院">
+                <option value="文院">
+                <option value="管院">
+                <option value="夜間部">
+                <option value="工程學院">
+            </datalist>
+            <br><br>
+    
+    <label for="mail">信箱:</label>
+    <input type="email" id="mail" name="mail" required placeholder="mail"><br><br>
+    <label for="phone">電話號碼:</label>
+    <input type="tel" id="phone" name="phone" required placeholder="0912345678" pattern="09[0-9]{8}"><br><br>
+    <label for="date">生日:</label>
+    <input type="date" id="date" name="date" required ><br><br>
+    <input type="submit" value="Submit" onclick="alert('註冊成功')">
+</form>
+<footer>
+    <p>Author: 4107056015鄭宇辰<br>
+    <a href="mailto:dan890407@gmail.com">hiddenmail@mail.com</a> mail不公開顯示:D</p>
+</footer>
+</body>
+</html>
